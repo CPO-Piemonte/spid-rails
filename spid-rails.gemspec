@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
 
-  s.add_runtime_dependency 'rails', '~> 5.1', '>= 5.1.4'
+  s.add_runtime_dependency 'rails'#, '~> 5.1', '>= 5.1.4'
   s.add_runtime_dependency 'ruby-saml', '~> 1.8.0'
 
   # Resolve CVE-2018-3741  vulnerability
